@@ -8,7 +8,7 @@ export default (state = initialState, action) => {
     switch (action.type) {
         case SEND_EMAIL:
             {
-                const SENDGRIDAPIKEY = "YOUR_API_KEY";
+                const SENDGRIDAPIKEY = "YOUR_API_KEY";  //Removed the API_KEY because the repo is public
                 const FROMEMAIL = "afzalap153@gmail.com";
                 const TOMEMAIL = "info@redpositive.in";
                 const SUBJECT = "You have a new message";
